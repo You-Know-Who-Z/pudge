@@ -1,20 +1,68 @@
+buildscript {
+	repositories {
+		maven {
+			url 'https://maven.aliyun.com/repository/jcenter'
+		}
+		maven {
+			url 'https://maven.aliyun.com/repository/google'
+		}
+		jcenter()
+		google()
+	}
+}
+
 plugins {
-    id 'java'
+	id 'org.springframework.boot' version '2.2.1.RELEASE'
+	id 'java'
+}
+apply plugin: 'io.spring.dependency-management'
+allprojects {
+	repositories {
+		maven {
+			url 'https://maven.aliyun.com/repository/jcenter'
+		}
+		maven {
+			url 'https://maven.aliyun.com/repository/central'
+		}
+		maven {
+			url 'https://maven.aliyun.com/repository/google'
+		}
+		jcenter()
+		mavenCentral()
+		google()
+	}
+}
+group = 'com.allstars'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenLocal()
-    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
-    maven { url "https://plugins.gradle.org/m2/" }
-    mavenCentral()
-}
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile group: 'io.netty', name: 'netty-all', version: '4.1.48.Final'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	// 远程调用
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.2.1.RELEASE'
+	// 数据连接池
+	implementation 'com.zaxxer:HikariCP'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+}
+group = "com.allstars.pudge"
+version = "0.0.1-SNAPSHOT"
+
+description = ""
+
+
+test {
+	useJUnitPlatform()
 }
