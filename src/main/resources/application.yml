@@ -23,18 +23,6 @@ feign:
   #             connectTimeout: 5000
   #             readTimeout: 5000
 
-# See https://github.com/Netflix/Hystrix/wiki/Configuration
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          strategy: SEMAPHORE
-          # See https://github.com/spring-cloud/spring-cloud-netflix/issues/1330
-          # thread:
-          #     timeoutInMilliseconds: 10000
-  shareSecurityContext: true
-
 management:
   endpoints:
     web:
@@ -114,27 +102,6 @@ spring:
         implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
   messages:
     basename: i18n/messages
-  main:
-    allow-bean-definition-overriding: true
-  mvc:
-    favicon:
-      enabled: false
-  task:
-    execution:
-      thread-name-prefix: assessment-task-
-      pool:
-        core-size: 2
-        max-size: 50
-        queue-capacity: 10000
-    scheduling:
-      thread-name-prefix: assessment-scheduling-
-      pool:
-        size: 2
-  thymeleaf:
-    mode: HTML
-  output:
-    ansi:
-      console-available: true
 
 server:
   servlet:
@@ -147,43 +114,3 @@ info:
   # Comma separated list of profiles that will trigger the ribbon to show
   display-ribbon-on-profiles: 'dev'
 
-# ===================================================================
-# JHipster specific properties
-#
-# Full reference is available at: https://www.jhipster.tech/common-application-properties/
-# ===================================================================
-
-jhipster:
-  clientApp:
-    name: 'assessmentApp'
-  # By default CORS is disabled. Uncomment to enable.
-  # cors:
-  #     allowed-origins: "*"
-  #     allowed-methods: "*"
-  #     allowed-headers: "*"
-  #     exposed-headers: "Authorization,Link,X-Total-Count"
-  #     allow-credentials: true
-  #     max-age: 1800
-  mail:
-    from: assessment@localhost
-  swagger:
-    default-include-pattern: /api/.*
-    title: assessment API
-    description: assessment API documentation
-    version: 0.0.1
-    terms-of-service-url:
-    contact-name:
-    contact-url:
-    contact-email:
-    license:
-    license-url:
-# ===================================================================
-# Application specific properties
-# Add your own application properties here, see the ApplicationProperties class
-# to have type-safe configuration, like in the JHipsterProperties above
-#
-# More documentation is available at:
-# https://www.jhipster.tech/common-application-properties/
-# ===================================================================
-
-# application:
