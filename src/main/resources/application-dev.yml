@@ -38,5 +38,5 @@ server:
 service-url:
   #  url: http://localhost:9000/
   #  url: http://39.103.13.40/
-  backend: http://test.pro.jianchaba.com:5008/api/v1/
+  huobi: http://api.testnet.huobi.pro/v1/
   download: http://test.pro.jianchaba.com:5008/api/v1/

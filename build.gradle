@@ -51,11 +51,11 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	// 远程调用
 	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.2.1.RELEASE'
+	compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.7.2'
+	compile group: 'cn.hutool', name: 'hutool-all', version: '5.3.5'
 	// 数据连接池
 	implementation 'com.zaxxer:HikariCP'
-	testImplementation('org.springframework.boot:spring-boot-starter-test') {
-		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
-	}
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 group = "com.allstars.pudge"
 version = "0.0.1-SNAPSHOT"
