@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7498acc7-8add-461f-800d-641ab6a5a05c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/client/HuoBiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/client/HuoBiClient.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1efhG2kmdSDG67SfCH3m9sC5pK6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allstars.pudge.Application" />
+      <module name="pudge.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allstars.pudge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.demo.DemoApplicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Teeeee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.demo.Teeeee&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Teeeee.testExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.demo.Teeeee.testExample&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Teeeee" />
+        <item itemvalue="Gradle.Teeeee.testExample" />
+        <item itemvalue="Gradle.DemoApplicationTests" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7498acc7-8add-461f-800d-641ab6a5a05c" name="Default Changelist" comment="" />
+      <created>1594718455735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594718455735</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="871" y="395" key="#Notifications" timestamp="1594953776564">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="871" y="395" key="#Notifications/56.23.1864.1057@56.23.1864.1057" timestamp="1594953776564" />
+    <state x="801" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1594884622974">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="801" y="262" key="#com.intellij.ide.util.MemberChooser/56.23.1864.1057@56.23.1864.1057" timestamp="1594884622974" />
+    <state x="677" y="210" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594884541364">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="677" y="210" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/56.23.1864.1057@56.23.1864.1057" timestamp="1594884541364" />
+    <state x="751" y="23" key="#xdebugger.evaluate" timestamp="1594889905404">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="751" y="23" key="#xdebugger.evaluate/56.23.1864.1057@56.23.1864.1057" timestamp="1594889905404" />
+    <state width="1822" height="285" key="GridCell.Tab.0.bottom" timestamp="1595404721221">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.0.bottom/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676282" />
+    <state width="1822" height="285" key="GridCell.Tab.0.bottom/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721221" />
+    <state width="1822" height="285" key="GridCell.Tab.0.center" timestamp="1595404721218">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.0.center/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676280" />
+    <state width="1822" height="285" key="GridCell.Tab.0.center/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721218" />
+    <state width="1822" height="285" key="GridCell.Tab.0.left" timestamp="1595404721217">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.0.left/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676279" />
+    <state width="1822" height="285" key="GridCell.Tab.0.left/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721217" />
+    <state width="1822" height="285" key="GridCell.Tab.0.right" timestamp="1595404721218">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.0.right/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676281" />
+    <state width="1822" height="285" key="GridCell.Tab.0.right/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721218" />
+    <state width="1822" height="354" key="GridCell.Tab.1.bottom" timestamp="1595402779895">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.1.bottom/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676079" />
+    <state width="1822" height="354" key="GridCell.Tab.1.bottom/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779895" />
+    <state width="1822" height="354" key="GridCell.Tab.1.center" timestamp="1595402779895">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.1.center/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676078" />
+    <state width="1822" height="354" key="GridCell.Tab.1.center/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779895" />
+    <state width="1822" height="354" key="GridCell.Tab.1.left" timestamp="1595402779894">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.1.left/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676078" />
+    <state width="1822" height="354" key="GridCell.Tab.1.left/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779894" />
+    <state width="1822" height="354" key="GridCell.Tab.1.right" timestamp="1595402779895">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="1822" height="352" key="GridCell.Tab.1.right/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676079" />
+    <state width="1822" height="354" key="GridCell.Tab.1.right/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779895" />
+    <state x="497" y="190" key="SettingsEditor" timestamp="1594889502096">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="497" y="190" key="SettingsEditor/56.23.1864.1057@56.23.1864.1057" timestamp="1594889502096" />
+    <state x="700" y="447" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594884455799">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="700" y="447" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/56.23.1864.1057@56.23.1864.1057" timestamp="1594884455799" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/allstars/pudge/service/HuobiImpl.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

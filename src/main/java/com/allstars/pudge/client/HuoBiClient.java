@@ -52,6 +52,20 @@ public class HuoBiClient {
     }
 
     /**
+     * 此接口返回所有火币全球站支持的交易对
+     */
+    public String commonSymbols() {
+        return get("/v1/common/symbols", null);
+    }
+
+    /**
+     * 此接口返回所有火币全球站支持的币种
+     */
+    public String commonCurrencys() {
+        return get("/v1/common/currencys", null);
+    }
+
+    /**
      * send a GET request
      *
      * @param uri
@@ -101,8 +115,7 @@ public class HuoBiClient {
             }
             Request request = builder.build();
             Response response = OkHttpClientUtil.client.newCall(request).execute();
-            String s = response.body().string();
-            return s;
+            return response.body().string();
         } catch (IOException e) {
             log.error("调用 Huobi API 调用方法 IO 错误 {} url {} ERROR {} , {}", method, uri, e, e.getMessage());
             throw new RuntimeException("调用 Huobi API 调用方法 IO 错误," + e.getMessage());
