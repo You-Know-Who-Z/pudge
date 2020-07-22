@@ -43,6 +43,7 @@ public class FeignConfiguration {
                 .writeTimeout(20, TimeUnit.SECONDS)
                 // 是否自动重连
                 .retryOnConnectionFailure(true)
+                .followRedirects(false)
                 // 连接池
                 .connectionPool(new ConnectionPool())
                 .build();

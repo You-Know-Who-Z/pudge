@@ -15,13 +15,13 @@
 # ===================================================================
 
 feign:
-  hystrix:
+  httpclient:
+    # 是否开启 Http Client
+    enabled: false
+  okhttp:
     enabled: true
-  # client:
-  #     config:
-  #         default:
-  #             connectTimeout: 5000
-  #             readTimeout: 5000
+  hystrix:
+    enabled: false
 
 management:
   endpoints:
