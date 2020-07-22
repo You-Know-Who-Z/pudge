@@ -38,7 +38,7 @@ public class HuobiSignature {
      * @param params       原始请求参数，以Key-Value存储，注意Value不要编码
      */
     public void createSignature(String appKey, String appSecretKey, String method, String host,
-                                String uri, Map<String, String> params) {
+                                String uri, Map<String, Object> params) {
         StringBuilder sb = new StringBuilder(1024);
         sb.append(method.toUpperCase()).append('\n') // GET
                 .append(host.toLowerCase()).append('\n') // Host
@@ -49,10 +49,10 @@ public class HuobiSignature {
         params.put("SignatureMethod", "HmacSHA256");
         params.put("Timestamp", gmtNow());
         // build signature:
-        SortedMap<String, String> map = new TreeMap<>(params);
-        for (Map.Entry<String, String> entry : map.entrySet()) {
+        SortedMap<String, Object> map = new TreeMap<>(params);
+        for (Map.Entry<String, Object> entry : map.entrySet()) {
             String key = entry.getKey();
-            String value = entry.getValue();
+            String value = entry.getValue().toString();
             if (value == null || "".equals(value)) {
                 continue;
             }
@@ -78,7 +78,7 @@ public class HuobiSignature {
         params.put("Signature", actualSign);
         if (log.isDebugEnabled()) {
             log.debug("Dump parameters:");
-            for (Map.Entry<String, String> entry : params.entrySet()) {
+            for (Map.Entry<String, Object> entry : params.entrySet()) {
                 log.debug("  key: " + entry.getKey() + ", value: " + entry.getValue());
             }
         }

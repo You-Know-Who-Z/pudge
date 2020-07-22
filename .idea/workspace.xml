@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7498acc7-8add-461f-800d-641ab6a5a05c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/allstars/pudge/client/HuoBiClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/allstars/pudge/client/HuoBiClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/allstars/pudge/service/HuobiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/allstars/pudge/service/HuobiImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/allstars/pudge/service/HuobiSignature.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/allstars/pudge/service/HuobiSignature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.demo.Teeeee.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.demo.Teeeee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.demo.Teeeee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.demo.Teeeee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/client/HuoBiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/client/HuoBiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/service/HuobiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/service/HuobiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/service/HuobiSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allstars/pudge/service/HuobiSignature.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +98,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Gradle.Teeeee.testExample">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.allstars.pudge.Application" />
       <module name="pudge.main" />
@@ -147,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Teeeee" />
         <item itemvalue="Gradle.Teeeee.testExample" />
+        <item itemvalue="Gradle.Teeeee" />
         <item itemvalue="Gradle.DemoApplicationTests" />
         <item itemvalue="Application.Application" />
       </list>
@@ -165,10 +189,20 @@
       <option name="presentableId" value="Default" />
       <updated>1594718455735</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1595406890036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595406890036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="871" y="395" key="#Notifications" timestamp="1594953776564">
@@ -187,50 +221,62 @@
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state x="751" y="23" key="#xdebugger.evaluate/56.23.1864.1057@56.23.1864.1057" timestamp="1594889905404" />
-    <state width="1822" height="285" key="GridCell.Tab.0.bottom" timestamp="1595404721221">
+    <state x="575" y="38" key="CommitChangelistDialog2" timestamp="1595406889594">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="575" y="38" key="CommitChangelistDialog2/56.23.1864.1057@56.23.1864.1057" timestamp="1595406889594" />
+    <state x="242" y="117" key="DiffContextDialog" timestamp="1595406833672">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state x="242" y="117" key="DiffContextDialog/56.23.1864.1057@56.23.1864.1057" timestamp="1595406833672" />
+    <state width="1822" height="354" key="GridCell.Tab.0.bottom" timestamp="1595409560477">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.0.bottom/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676282" />
-    <state width="1822" height="285" key="GridCell.Tab.0.bottom/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721221" />
-    <state width="1822" height="285" key="GridCell.Tab.0.center" timestamp="1595404721218">
+    <state width="1822" height="354" key="GridCell.Tab.0.bottom/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560477" />
+    <state width="1822" height="354" key="GridCell.Tab.0.center" timestamp="1595409560476">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.0.center/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676280" />
-    <state width="1822" height="285" key="GridCell.Tab.0.center/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721218" />
-    <state width="1822" height="285" key="GridCell.Tab.0.left" timestamp="1595404721217">
+    <state width="1822" height="354" key="GridCell.Tab.0.center/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560476" />
+    <state width="1822" height="354" key="GridCell.Tab.0.left" timestamp="1595409560476">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.0.left/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676279" />
-    <state width="1822" height="285" key="GridCell.Tab.0.left/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721217" />
-    <state width="1822" height="285" key="GridCell.Tab.0.right" timestamp="1595404721218">
+    <state width="1822" height="354" key="GridCell.Tab.0.left/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560476" />
+    <state width="1822" height="354" key="GridCell.Tab.0.right" timestamp="1595409560477">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.0.right/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676281" />
-    <state width="1822" height="285" key="GridCell.Tab.0.right/56.23.1864.1057@56.23.1864.1057" timestamp="1595404721218" />
-    <state width="1822" height="354" key="GridCell.Tab.1.bottom" timestamp="1595402779895">
+    <state width="1822" height="354" key="GridCell.Tab.0.right/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560477" />
+    <state width="1822" height="354" key="GridCell.Tab.1.bottom" timestamp="1595409560479">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.1.bottom/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676079" />
-    <state width="1822" height="354" key="GridCell.Tab.1.bottom/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779895" />
-    <state width="1822" height="354" key="GridCell.Tab.1.center" timestamp="1595402779895">
+    <state width="1822" height="354" key="GridCell.Tab.1.bottom/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560479" />
+    <state width="1822" height="354" key="GridCell.Tab.1.center" timestamp="1595409560478">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.1.center/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676078" />
-    <state width="1822" height="354" key="GridCell.Tab.1.center/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779895" />
-    <state width="1822" height="354" key="GridCell.Tab.1.left" timestamp="1595402779894">
+    <state width="1822" height="354" key="GridCell.Tab.1.center/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560478" />
+    <state width="1822" height="354" key="GridCell.Tab.1.left" timestamp="1595409560478">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.1.left/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676078" />
-    <state width="1822" height="354" key="GridCell.Tab.1.left/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779894" />
-    <state width="1822" height="354" key="GridCell.Tab.1.right" timestamp="1595402779895">
+    <state width="1822" height="354" key="GridCell.Tab.1.left/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560478" />
+    <state width="1822" height="354" key="GridCell.Tab.1.right" timestamp="1595409560479">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state width="1822" height="352" key="GridCell.Tab.1.right/55.23.1865.1057@55.23.1865.1057" timestamp="1594963676079" />
-    <state width="1822" height="354" key="GridCell.Tab.1.right/56.23.1864.1057@56.23.1864.1057" timestamp="1595402779895" />
+    <state width="1822" height="354" key="GridCell.Tab.1.right/56.23.1864.1057@56.23.1864.1057" timestamp="1595409560479" />
     <state x="497" y="190" key="SettingsEditor" timestamp="1594889502096">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>
     <state x="497" y="190" key="SettingsEditor/56.23.1864.1057@56.23.1864.1057" timestamp="1594889502096" />
+    <state width="932" height="528" key="XDebugger.FullValuePopup" timestamp="1595409577013">
+      <screen x="56" y="23" width="1864" height="1057" />
+    </state>
+    <state width="932" height="528" key="XDebugger.FullValuePopup/56.23.1864.1057@56.23.1864.1057" timestamp="1595409577013" />
     <state x="700" y="447" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594884455799">
       <screen x="56" y="23" width="1864" height="1057" />
     </state>

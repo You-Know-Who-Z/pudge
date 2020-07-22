@@ -35,7 +35,7 @@ public class HuobiImpl implements Huobi {
 //        HuobiSignature huobiSignature = new HuobiSignature();
 //        huobiSignature.createSignature(accessKeyId, appSecretKey, "get", "api.testnet.huobi.pro","/v1/account/accounts", params);
         HuoBiClient huoBiClient = new HuoBiClient(accessKeyId, appSecretKey);
-        String a = huoBiClient.getAccounts();
+        String a = huoBiClient.commonSymbols();
         System.out.println(a);
     }
 }

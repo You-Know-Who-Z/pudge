@@ -66,13 +66,28 @@ public class HuoBiClient {
     }
 
     /**
+     * 此接口返回历史K线数据
+     *
+     * @param symbol btcusdt, ethbtc...（取值参考GET /v1/common/symbols）>
+     * @param period 返回数据时间粒度，也就是每根蜡烛的时间区间	1min, 5min, 15min, 30min, 60min, 4hour, 1day, 1mon, 1week, 1year
+     * @param size   返回 K 线数据条数
+     */
+    public String marketHistoryKline(String symbol, String period, Integer size) {
+        Map<String, Object> params = new HashMap<>(3);
+        params.put("symbol", symbol);
+        params.put("period", period);
+        params.put("size", size);
+        return get("/market/history/kline", params);
+    }
+
+    /**
      * send a GET request
      *
      * @param uri
      * @param params
      * @return
      */
-    private String get(String uri, Map<String, String> params) {
+    private String get(String uri, Map<String, Object> params) {
         if (params == null) {
             params = new HashMap<>();
         }
@@ -87,7 +102,7 @@ public class HuoBiClient {
      * @return
      */
     private String post(String uri, Object object) {
-        return call("POST", uri, object, new HashMap<String, String>());
+        return call("POST", uri, object, new HashMap<>());
     }
 
     /**
@@ -99,7 +114,7 @@ public class HuoBiClient {
      * @param params
      * @return
      */
-    private String call(String method, String uri, Object object, Map<String, String> params) {
+    private String call(String method, String uri, Object object, Map<String, Object> params) {
         log.trace("准备开始调用 Huobi API 调用方法 {} url {}", method, uri);
         HuobiSignature signature = new HuobiSignature();
         signature.createSignature(this.accessKeyId, this.accessKeySecret, method, API_HOST, uri, params);
@@ -131,9 +146,9 @@ public class HuoBiClient {
      * @param params
      * @return
      */
-    private String toQueryString(Map<String, String> params) {
+    private String toQueryString(Map<String, Object> params) {
         return params.entrySet().stream().filter(v -> v.getValue() != null).map((entry) ->
-                entry.getKey() + "=" + HuobiSignature.urlEncode(entry.getValue())
+                entry.getKey() + "=" + HuobiSignature.urlEncode(entry.getValue().toString())
         ).collect(Collectors.joining("&"));
     }
 
